@@ -9,7 +9,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
 public interface CategoriaRepository extends JpaRepository<Categoria, Integer>, JpaSpecificationExecutor<Categoria> {
-    @Query("SELECT C FROM Categoria C WHERE C.vigencia IS 1")
+    @Query("SELECT C FROM Categoria C WHERE C.vigencia IS true")
     Iterable<Categoria> listarCategoriasActivas();
 
     @Query("SELECT c FROM Categoria c WHERE c.id = :id")
