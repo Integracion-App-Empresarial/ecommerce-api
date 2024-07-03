@@ -29,7 +29,6 @@ public class ClienteService {
                         "Ya existe un cliente con ese mismo numero de documento, " +
                         "y si el problema persiste comuniquese con el soporte técnico", null);
             }else{
-                //Guarda
                 c.setId(idf);
                 return new GenericResponse(TIPO_DATA, RPTA_OK, "Cliente registrado correctamente", this.repository.save(c));
             }

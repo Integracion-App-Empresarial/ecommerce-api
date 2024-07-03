@@ -6,10 +6,10 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
 public interface PlatilloRepository extends CrudRepository<Platillo, Integer> {
-    @Query("SELECT P FROM Platillo P WHERE P.recomendado IS true ")
+    @Query("SELECT P FROM Platillo P WHERE P.recomendado IS true AND P.stock != 0")
     Iterable<Platillo> listarPlatillosRecomendados();
 
-    @Query("SELECT P FROM Platillo P WHERE P.categoria.id=:idC")
+    @Query("SELECT P FROM Platillo P WHERE P.categoria.id=:idC AND P.stock != 0")
     Iterable<Platillo> listarPlatillosPorCategoria(int idC);
 
     @Modifying
