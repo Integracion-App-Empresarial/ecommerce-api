@@ -3,11 +3,11 @@ package com.alexandertutoriales.ecommerce.service.controller;
 import com.alexandertutoriales.ecommerce.service.entity.DocumentoAlmacenado;
 import com.alexandertutoriales.ecommerce.service.service.DocumentoAlmacenadoService;
 import com.alexandertutoriales.ecommerce.service.utlis.GenericResponse;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.core.io.Resource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
 
 @RestController
 @RequestMapping("api/documento-almacenado")

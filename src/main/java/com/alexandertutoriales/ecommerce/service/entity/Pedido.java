@@ -1,8 +1,9 @@
 package com.alexandertutoriales.ecommerce.service.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.persistence.*;
 
-import javax.persistence.*;
+
 import java.util.Date;
 
 @Entity

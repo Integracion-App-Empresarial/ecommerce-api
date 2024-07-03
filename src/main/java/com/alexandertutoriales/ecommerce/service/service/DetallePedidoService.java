@@ -3,8 +3,8 @@ package com.alexandertutoriales.ecommerce.service.service;
 import com.alexandertutoriales.ecommerce.service.entity.DetallePedido;
 import com.alexandertutoriales.ecommerce.service.repository.DetallePedidoRepository;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import javax.transaction.Transactional;
 
 @Service
 @Transactional

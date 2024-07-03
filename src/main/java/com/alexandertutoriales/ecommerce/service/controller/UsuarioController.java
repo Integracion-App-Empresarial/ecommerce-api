@@ -3,9 +3,9 @@ package com.alexandertutoriales.ecommerce.service.controller;
 import com.alexandertutoriales.ecommerce.service.entity.Usuario;
 import com.alexandertutoriales.ecommerce.service.service.UsuarioService;
 import com.alexandertutoriales.ecommerce.service.utlis.GenericResponse;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
 
 @RestController
 @RequestMapping("api/usuario")

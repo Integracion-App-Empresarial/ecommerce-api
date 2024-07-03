@@ -1,9 +1,9 @@
 package com.alexandertutoriales.ecommerce.service.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.persistence.*;
 
 @Entity
 public class DocumentoAlmacenado {

@@ -1,6 +1,7 @@
 package com.alexandertutoriales.ecommerce.service.entity;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+
 
 @Entity
 public class Platillo {

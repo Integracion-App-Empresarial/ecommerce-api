@@ -3,6 +3,7 @@ package com.alexandertutoriales.ecommerce.service.service;
 import com.alexandertutoriales.ecommerce.service.entity.DocumentoAlmacenado;
 import com.alexandertutoriales.ecommerce.service.repository.DocumentoAlmacenadoRepository;
 import com.alexandertutoriales.ecommerce.service.utlis.GenericResponse;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -10,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Optional;

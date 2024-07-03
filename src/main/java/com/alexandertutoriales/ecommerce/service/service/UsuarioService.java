@@ -4,8 +4,8 @@ import com.alexandertutoriales.ecommerce.service.entity.Usuario;
 import com.alexandertutoriales.ecommerce.service.repository.UsuarioRepository;
 import com.alexandertutoriales.ecommerce.service.utlis.GenericResponse;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import javax.transaction.Transactional;
 import java.util.Optional;
 
 import static com.alexandertutoriales.ecommerce.service.utlis.Global.*;

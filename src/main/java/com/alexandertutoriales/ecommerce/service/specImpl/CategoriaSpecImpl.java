@@ -3,10 +3,11 @@ package com.alexandertutoriales.ecommerce.service.specImpl;
 import com.alexandertutoriales.ecommerce.service.entity.Categoria;
 import com.alexandertutoriales.ecommerce.service.entity.filters.CategoriaFilter;
 import com.alexandertutoriales.ecommerce.service.spec.CategoriaSpec;
+import jakarta.persistence.criteria.Predicate;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Component;
 
-import javax.persistence.criteria.Predicate;
+
 import java.util.ArrayList;
 import java.util.List;
 
