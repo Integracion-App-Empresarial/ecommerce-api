@@ -22,4 +22,8 @@ public class PlatilloService {
     public GenericResponse listarPlatillosPorCategoria(int idC){
         return new GenericResponse(TIPO_DATA, RPTA_OK, OPERACION_CORRECTA, this.repository.listarPlatillosPorCategoria(idC));
     }
+
+    public GenericResponse<?> obtenerStock(int id){
+        return new GenericResponse<>(TIPO_DATA,RPTA_OK,OPERACION_CORRECTA, this.repository.obtenerStockRepo(id));
+    }
 }

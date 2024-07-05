@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="railway@roundhouse.proxy.rlwy.net">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.49">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.52">
     <root id="1">
       <DefaultCasing>exact</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -1080,8 +1080,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="291" parent="1" name="railway">
       <Current>1</Current>
-      <IntrospectionTimestamp>2024-07-02.21:20:01</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2024-07-03.02:20:02</LocalIntrospectionTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-07-03.02:20:02</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="292" parent="1" name="sys">

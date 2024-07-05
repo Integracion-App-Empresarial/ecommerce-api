@@ -24,4 +24,8 @@ public class PlatilloController {
     public GenericResponse listarPlatillosPorCategoria(@PathVariable int idC){
         return this.service.listarPlatillosPorCategoria(idC);
     }
+    @GetMapping("/{id}/stock")
+    public GenericResponse<?> obtenerStock(@PathVariable int id){
+        return this.service.obtenerStock(id);
+    }
 }
